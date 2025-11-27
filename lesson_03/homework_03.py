@@ -156,7 +156,6 @@ tank = 48
 
 fuel_needed = distance / 100 * fuel_per_100
 print("Для поездки нужно", fuel_needed, "литров бензина")
-
 import math
 refuels = math.ceil(fuel_needed / tank)
 print("Минимум нужно заехать на заправку", refuels, "раза")
