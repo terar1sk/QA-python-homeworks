@@ -1,0 +1,28 @@
+2026-02-26 15:51:50,192 | INFO | AUTH POST /auth status=200
+2026-02-26 15:51:50,194 | INFO | GET /cars params={'sort_by': 'price', 'limit': '5'}
+2026-02-26 15:51:50,209 | INFO | GET /cars status=200 body_len=476
+2026-02-26 15:51:50,209 | INFO | First item: {'brand': 'Chevrolet', 'engine_volume': 1.8, 'price': 28000, 'year': 2018}
+2026-02-26 15:51:50,209 | INFO | Second item: {'brand': 'Hyundai', 'engine_volume': 1.6, 'price': 29000, 'year': 2020}
+2026-02-26 15:51:50,211 | INFO | GET /cars params={'sort_by': 'year', 'limit': '10'}
+2026-02-26 15:51:50,214 | INFO | GET /cars status=200 body_len=953
+2026-02-26 15:51:50,214 | INFO | First item: {'brand': 'Ford', 'engine_volume': 2.2, 'price': 32000, 'year': 2015}
+2026-02-26 15:51:50,214 | INFO | Second item: {'brand': 'Honda', 'engine_volume': 1.6, 'price': 30000, 'year': 2016}
+2026-02-26 15:51:50,216 | INFO | GET /cars params={'sort_by': 'engine_volume', 'limit': '3'}
+2026-02-26 15:51:50,219 | INFO | GET /cars status=200 body_len=286
+2026-02-26 15:51:50,219 | INFO | First item: {'brand': 'Tesla', 'engine_volume': 0.0, 'price': 80000, 'year': 2020}
+2026-02-26 15:51:50,219 | INFO | Second item: {'brand': 'Nissan', 'engine_volume': 1.5, 'price': 40000, 'year': 2021}
+2026-02-26 15:51:50,221 | INFO | GET /cars params={'sort_by': 'brand', 'limit': '7'}
+2026-02-26 15:51:50,236 | INFO | GET /cars status=200 body_len=667
+2026-02-26 15:51:50,236 | INFO | First item: {'brand': 'Acura', 'engine_volume': 2.4, 'price': 48000, 'year': 2020}
+2026-02-26 15:51:50,237 | INFO | Second item: {'brand': 'Audi', 'engine_volume': 1.8, 'price': 45000, 'year': 2020}
+2026-02-26 15:51:50,238 | INFO | GET /cars params={'sort_by': 'price', 'limit': '1'}
+2026-02-26 15:51:50,241 | INFO | GET /cars status=200 body_len=101
+2026-02-26 15:51:50,241 | INFO | First item: {'brand': 'Chevrolet', 'engine_volume': 1.8, 'price': 28000, 'year': 2018}
+2026-02-26 15:51:50,243 | INFO | GET /cars params={'limit': '5'}
+2026-02-26 15:51:50,264 | INFO | GET /cars status=200 body_len=477
+2026-02-26 15:51:50,264 | INFO | First item: {'brand': 'Acura', 'engine_volume': 2.4, 'price': 48000, 'year': 2020}
+2026-02-26 15:51:50,264 | INFO | Second item: {'brand': 'Audi', 'engine_volume': 1.8, 'price': 45000, 'year': 2020}
+2026-02-26 15:51:50,265 | INFO | GET /cars params={'sort_by': 'year'}
+2026-02-26 15:51:50,281 | INFO | GET /cars status=200 body_len=2389
+2026-02-26 15:51:50,281 | INFO | First item: {'brand': 'Ford', 'engine_volume': 2.2, 'price': 32000, 'year': 2015}
+2026-02-26 15:51:50,282 | INFO | Second item: {'brand': 'Honda', 'engine_volume': 1.6, 'price': 30000, 'year': 2016}
