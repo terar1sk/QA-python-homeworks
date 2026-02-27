@@ -1,0 +1,8 @@
+HB анализ ключа: Key TSTFEED0300|7E3E|0400
+Уточнение: WARNING если 31 < heartbeat < 33; ERROR если heartbeat >= 33
+
+ERROR heartbeat = 35s at 04:51:17 (next=04:50:42)
+ERROR heartbeat = 35s at 03:39:11 (next=03:38:36)
+ERROR heartbeat = 36s at 02:27:06 (next=02:26:30)
+WARNING heartbeat = 32s at 01:35:10 (next=01:34:38)
+ERROR heartbeat = 35s at 01:14:58 (next=01:14:23)
